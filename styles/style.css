@@ -82,9 +82,14 @@
   transition-duration: 500ms;
 } */
 
-.wrapper .box:hover {
-  transform: translateY(-5%);
+#center {
+  transform: translateY(3%);
 }
+
+#center:hover {
+  transform: translateY(-1%);
+}
+
 .wrapper .box:hover::before {
   left: 150%;
 }
@@ -102,10 +107,10 @@
 }
 
 #side {
-  transform: translateY(35%);
+  transform: translateY(20%);
 }
 #side:hover{
-  transform: translateY(30%);
+  transform: translateY(16%);
 }
 /* 
 testing again  */
