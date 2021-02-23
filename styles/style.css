@@ -83,11 +83,11 @@
 } */
 
 #center {
-  transform: translateY(3%);
+  transform: translateY(-3%);
 }
 
 #center:hover {
-  transform: translateY(-1%);
+  transform: translateY(-6%);
 }
 
 .wrapper .box:hover::before {
@@ -107,10 +107,10 @@
 }
 
 #side {
-  transform: translateY(20%);
+  transform: translateY(10%);
 }
 #side:hover{
-  transform: translateY(16%);
+  transform: translateY(7%);
 }
 /* 
 testing again  */
