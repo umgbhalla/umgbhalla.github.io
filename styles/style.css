@@ -29,7 +29,7 @@
 
 .wrapper .box {
   width: 400px;
-  height: 400px;
+  height: 600px;
   border-radius: 15px;
   transition: transform 500ms ease-out;
   overflow: hidden;
@@ -44,7 +44,7 @@
 .box h2 {
   font-size: 25px;
   margin-bottom: 3px;
-  color: rgba(61, 31, 4, 0.753);
+  color: rgba(0, 0, 0, 0.753);
 }
 
 /* id banana he h2 ka */
@@ -68,22 +68,36 @@
 
 .wrapper .box:before {
   content: "";
-  background: rgba(255, 255, 255, 0.4);
-  width: 60%;
+  background: rgba(216, 247, 250, 0.39);
+  width: 30%;
   height: 100%;
   top: 0%;
-  left: -125%;
-  transform: skew(45deg);
+  left: -165%;
+  transform: skew(30deg);
   position: absolute;
   animation-direction: left;
   transition-duration: 500ms;
 }
 
 .wrapper .box:hover {
-  transform: translateY(-5%);
+  transform: translateY(-7%);
 }
 .wrapper .box:hover::before {
   left: 150%;
+}
+
+
+.img-area{
+  width:160px;
+  height:160px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.img-area img{
+  width:109%;
+  
 }
 
 /* 
