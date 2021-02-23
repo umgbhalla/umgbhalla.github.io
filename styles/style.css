@@ -29,7 +29,7 @@
 
 .wrapper .box {
   width: 400px;
-  height: 600px;
+  height: 450px;
   border-radius: 15px;
   transition: transform 500ms ease-out;
   overflow: hidden;
@@ -47,7 +47,6 @@
   color: rgba(0, 0, 0, 0.753);
 }
 
-/* id banana he h2 ka */
 
 .box p {
   line-height: 1.8;
@@ -66,6 +65,10 @@
   border-radius: 50px;
 }
 
+#center {
+  height: 550px;
+}
+/* 
 .wrapper .box:before {
   content: "";
   background: rgba(216, 247, 250, 0.39);
@@ -77,28 +80,32 @@
   position: absolute;
   animation-direction: left;
   transition-duration: 500ms;
-}
+} */
 
 .wrapper .box:hover {
-  transform: translateY(-7%);
+  transform: translateY(-5%);
 }
 .wrapper .box:hover::before {
   left: 150%;
 }
 
-
-.img-area{
-  width:160px;
-  height:160px;
+.img-area {
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   display: inline-block;
   overflow: hidden;
 }
 
-.img-area img{
-  width:109%;
-  
+.img-area img {
+  width: 109%;
 }
 
+#side {
+  transform: translateY(35%);
+}
+#side:hover{
+  transform: translateY(30%);
+}
 /* 
 testing again  */
