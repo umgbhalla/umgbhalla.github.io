@@ -36,9 +36,9 @@
   color: #fff;
   padding: 5%;
   text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(50px);
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.171);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.253);
 }
 
 .box h2 {
@@ -50,7 +50,7 @@
 .box p {
   line-height: 1.8;
   /* color: rgba(255, 255, 255, 0.6); */
-  color: rgba(255, 255, 255, 0.705);
+  color: rgba(255, 255, 255, 0.87);
 }
 .box ul {
   list-style-type: none;
@@ -60,15 +60,15 @@
 }
 
 .box a {
-  border: none;
-  background: rgba(255, 255, 255, 0.103);
+  background: rgba(197, 197, 197, 0.336);
   padding: 15px 50px;
   display: inline-block;
   margin-top: 10px;
   text-decoration: none;
   font-size: 16px;
   border-radius: 50px;
-  color: rgba(255, 255, 255, 0.89);
+  color: rgba(255, 255, 255, 0.884);
+  border: 1px solid rgba(255, 255, 255, 0.253);
 }
 
 #center {
