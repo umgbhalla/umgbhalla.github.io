@@ -38,7 +38,7 @@
   text-align: center;
   background: rgba(255, 255, 255, 0.171);
   backdrop-filter: blur(30px);
-  border: 2px solid rgba(255, 255, 255, 0.253);
+  /* border: 2px solid rgba(255, 255, 255, 0.253); */
 }
 
 .box h2 {
