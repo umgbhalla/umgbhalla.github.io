@@ -5,6 +5,7 @@
   /* color: white; */
 }
 
+
 .cards {
   display: -webkit-flex;
   display: -moz-flex;
@@ -29,7 +30,7 @@
 
 .wrapper .box {
   width: 400px;
-  height: 450px;
+  height: 330px;
   border-radius: 15px;
   transition: transform 500ms ease-out;
   overflow: hidden;
@@ -47,11 +48,16 @@
   color: rgb(255, 255, 255);
 }
 
-
 .box p {
   line-height: 1.8;
   /* color: rgba(255, 255, 255, 0.6); */
   color: rgba(255, 255, 255, 0.705);
+}
+.box ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 1%;
+  color: rgba(255, 255, 255, 0.705);  
 }
 
 .box a {
@@ -59,7 +65,7 @@
   background: #fff;
   padding: 15px 50px;
   display: inline-block;
-  margin-top: 20px;
+  margin-top:10%;
   text-decoration: none;
   font-size: 16px;
   border-radius: 50px;
@@ -104,14 +110,13 @@
 
 .img-area img {
   width: 112%;
-  
 }
 
 #side {
-  transform: translateY(10%);
+  transform: translateY(24%);
 }
-#side:hover{
-  transform: translateY(7%);
+#side:hover {
+  transform: translateY(20%);
 }
 /* 
 testing again  */
