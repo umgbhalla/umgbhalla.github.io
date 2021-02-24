@@ -73,7 +73,7 @@
 }
 
 #center {
-  height: 550px;
+  height: 500px;
 }
 /* 
 .wrapper .box:before {
@@ -114,10 +114,10 @@
 }
 
 #side {
-  transform: translateY(24%);
+  transform: translateY(20%);
 }
 #side:hover {
-  transform: translateY(20%);
+  transform: translateY(16%);
 }
 /* 
 testing again  */
