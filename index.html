@@ -18,7 +18,7 @@
 <body>
     <div class="cards">
         <div class="wrapper">
-            <div data-tilt class="box" id="side">
+            <div  class="box" id="side" style="transform-style: preserve-3d">
                 <h2>
                     Stuff I'm learning <br>
                 </h2><br>
@@ -33,21 +33,21 @@
                     <ul><span>C </span></ul>
                 </ul>
                 </p>
-                <a href="https://www.linkedin.com/in/umgbhalla/" target="_blank">LinkedIn</a>
+                <a class = "atag" href="https://www.linkedin.com/in/umgbhalla/" target="_blank">LinkedIn</a>
             </div>
             <div data-tilt class="box" id="center">
-                <div class="img-area"><img src="images/image2.jpg" alt="profile photo"></div>
+                <div class="img-area"><img  src="images/image2.jpg" alt="profile photo"></div>
                 <h2>
                     <br>
                     <b> Hi ! </b>
                 </h2>
-                <p>
+                <p  >
                     I'm Umang Bhalla, currently a first year student at IIIT-Bhopal pursuing
                     a B-tech degree in Information Technology.<br> <b> Find me on </b>
                     <br>
-                    <a href="https://twitter.com/umgbhalla" target="_blank">Twitter</a>
+                    <a class = "atag" href="https://twitter.com/umgbhalla" target="_blank">Twitter</a>
             </div>
-            <div data-tilt class="box" id="side">
+            <div  class="box" id="side">
                 <h2>
                     Stuff I find interesting <br>
                 </h2><br>
@@ -66,7 +66,7 @@
 
                 </ul>
                 </p>
-                <a href="https://github.com/umgbhalla" target="_blank">Github</a>
+                <a class = "atag" href="https://github.com/umgbhalla" target="_blank">Github</a>
 
             </div>
         </div>
@@ -83,10 +83,10 @@
         $(document).ready(function () {
             $('.box').tilt({
                 scale: 1.06,
-                perspective: 2000,
-                speed: 2000,
+                perspective: 1700,
+                speed: 1500,
                 glare: true,
-                maxGlare: .5
+                maxGlare: .3
             })
         }
         )
