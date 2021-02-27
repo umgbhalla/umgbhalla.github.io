@@ -18,7 +18,7 @@
 <body>
     <div class="cards">
         <div class="wrapper">
-            <div class="box" id="side">
+            <div data-tilt class="box" id="side">
                 <h2>
                     Stuff I'm learning <br>
                 </h2><br>
@@ -35,7 +35,7 @@
                 </p>
                 <a href="https://www.linkedin.com/in/umgbhalla/" target="_blank">LinkedIn</a>
             </div>
-            <div class="box" id="center">
+            <div data-tilt class="box" id="center">
                 <div class="img-area"><img src="images/image2.jpg" alt="profile photo"></div>
                 <h2>
                     <br>
@@ -47,7 +47,7 @@
                     <br>
                     <a href="https://twitter.com/umgbhalla" target="_blank">Twitter</a>
             </div>
-            <div class="box" id="side">
+            <div data-tilt class="box" id="side">
                 <h2>
                     Stuff I find interesting <br>
                 </h2><br>
@@ -75,6 +75,21 @@
         </div>
     </div>
     <!-- testing -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/tilt.js/src/tilt.jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.box').tilt({
+                scale: 1.06,
+                perspective: 2000,
+                speed: 2000,
+                glare: true,
+                maxGlare: .5
+                
+            })
+        }
+        )
+    </script>
 </body>
 
 </html>
