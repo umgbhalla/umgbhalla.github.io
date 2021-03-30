@@ -13,7 +13,7 @@
   display: flex;
   min-height: 100vh;
   /* <==========> */
-  /* background-image: url(https://cdn.discordapp.com/attachments/635625973764849684/820711368478294036/redwavwe.png); */
+  background-image: url(https://cdn.discordapp.com/attachments/635625973764849684/820711368478294036/redwavwe.png);
   /* background-image: url(../images/image.jpg); */
   -webkit-background-size: cover;
   background-size: cover;
@@ -44,20 +44,17 @@
   padding: 5%;
   text-align: center;
   /* background: rgba(20, 20, 20, 0.383); */
-  background: linear-gradient(
-    150deg,
-    #24232394 10%,
-    #1d141d11 100%,
-    #201b202f 100%
-  );
-  backdrop-filter: blur(20px);
+  background: linear-gradient(150deg, #24232394 10%, #1d141d11 100%, #201b202f 100%);
+  backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(10px);
   /* filter: blur(3px); */
   /* border: 2px solid rgba(255, 255, 255, 0.253); */
 
   box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
-    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
@@ -89,6 +86,7 @@
   border-radius: 50px;
   color: rgba(255, 255, 255, 0.877);
   /* border: 1px solid rgba(102, 96, 96, 0.726); */
+  
 }
 
 #center {
@@ -98,7 +96,7 @@
   transform-style: preserve-3d;
 }
 
-/* #side:hover {
+ /* #side:hover {
   transform: translateY(16%); 
   filter: blur(0px);
   transition-duration: 100ms;
@@ -116,8 +114,9 @@
   position: absolute;
   animation-direction: left;
   transition-duration: 700ms;
-  filter: blur(10px);
+  filter:blur(10px);
 }
+
 
 /* #center:hover {
   transform: translateY(-6%);
@@ -144,69 +143,3 @@
 } */
 /* 
 testing again  */
-
-/* Exo thin font from Google. */
-@import url(https://fonts.googleapis.com/css?family=Exo:100);
-/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
-/* Animations */
-@-webkit-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 100px 100px;
-  }
-}
-@-moz-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 100px 100px;
-  }
-}
-@-o-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 100px 100px;
-  }
-}
-@keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 100px 100px;
-  }
-}
-@-webkit-keyframes bg-scrolling {
-  0% {
-    background-position: 100px 100px;
-  }
-}
-@-moz-keyframes bg-scrolling {
-  0% {
-    background-position: 100px 100px;
-  }
-}
-@-o-keyframes bg-scrolling {
-  0% {
-    background-position: 100px 100px;
-  }
-}
-@keyframes bg-scrolling {
-  0% {
-    background-position: 100px 100px;
-  }
-}
-/* Main styles */
-body {
-  /* margin-top: 13.5rem; */
-  /* color: #999; */
-  /* font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif; */
-  /* text-align: center; */
-  /* img size is 50x50 */
-  background: url("../images/Group_1.png") repeat 0 0;
-  -webkit-animation: bg-scrolling-reverse 1.92s infinite;
-  /* Safari 4+ */
-  -moz-animation: bg-scrolling-reverse 1.92s infinite;
-  /* Fx 5+ */
-  -o-animation: bg-scrolling-reverse 1.92s infinite;
-  /* Opera 12+ */
-  animation: bg-scrolling-reverse 1.92s infinite;
-  /* IE 10+ */
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  -o-animation-timing-function: linear;
-  animation-timing-function: linear;
-}
