@@ -8,9 +8,9 @@
   /* Color scheme */
 
   --textcolor: #dadada;
-  --bgcolor: #1a2026;
-  --highlight: #9ce5c0;
-  --cardbg: #29343d;
+  --bgcolor: #282828;
+  --highlight: #928374;
+  --cardbg: #504945;
 }
 
 body {
@@ -584,4 +584,10 @@ i {
 
 .major {
   text-align: center;
+}
+.fab {
+  color: #7c6f64;
+}
+.fas {
+  color: #7c6f64;
 }
