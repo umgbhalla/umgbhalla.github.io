@@ -7,14 +7,14 @@
 
   /* Color scheme */
 
-  --textcolor: #dadada;
-  --bgcolor: #282828;
-  --highlight: #928374;
-  --cardbg: #504945;
+  --textcolor: #E9DCF5;
+  --bgcolor: #0B0915;
+  --highlight: #654B9B;
+  --cardbg: #292049;
 }
 
 body {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "JetBrains Mono", monospace;
   line-height: 1.4;
   color: var(--textcolor);
@@ -73,7 +73,7 @@ nav a:not(:last-of-type) {
 
 a {
   text-decoration: none;
-  color: var(--highlight);
+  color: var(--textcolor);
 }
 
 a:hover {
@@ -534,8 +534,8 @@ article time {
 /* Cards */
 .card {
   /* Add shadows to create the "card" effect */
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   border-radius: 10px;
   background: var(--cardbg);
   box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.2),
@@ -587,8 +587,8 @@ i {
   text-align: center;
 }
 .fab {
-  color: #7c6f64;
+  color:  var(--highlight);
 }
 .fas {
-  color: #7c6f64;
+  color:  var(--highlight);
 }
