@@ -36,18 +36,17 @@
 		</script>
 		<header>
 			<h1>
-				<a href="#home">Umang Bhalla</a>
+				<a href="#home" onclick='document.getElementById("home").style.display = "block";' >Umang Bhalla</a>
 			</h1>
 			<nav>
-				<a href="#about">About Site</a>
-				<a href="#news">Blog</a>
-				<a href="#portfolio">Projects</a>
+				<a href="#about" onclick='document.getElementById("home").style.display = "none";'>About Site</a>
+				<a href="#news" onclick='document.getElementById("home").style.display = "none";'>Blog</a>
+				<a href="#portfolio" onclick='document.getElementById("home").style.display = "none";'>Projects</a>
 			</nav>
 		</header>
 
 		<main>
-			<section
-					id="home">
+			<section id="home">
 				<!-- HOME -->
 				<div class="main-container">
 					<div class="card">
@@ -103,8 +102,7 @@
 				</div>
 			</section>
 
-			<section
-					id="about">
+			<section id="about">
 				<!-- ABOUT -->
 				<p>
 				This is the about page.
