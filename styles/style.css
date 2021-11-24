@@ -565,6 +565,8 @@ article time {
 	background: var(--cardbg);
 	box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.2),
 	inset -1px -1px 0 rgba(0, 0, 0, 0.04);
+
+  filter: drop-shadow(0 0.75rem 0.95rem var(--bgcolor));
 	transition: 0s;
 }
 
@@ -583,6 +585,7 @@ article time {
 	padding-bottom: 6px;
 	padding-left: 16px;
 	padding-right: 16px;
+
 }
 
 i {
