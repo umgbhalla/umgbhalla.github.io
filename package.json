@@ -3,5 +3,9 @@
     "jquery.js": "^0.0.2-security",
     "tilt": "^0.2.0",
     "tilt.js": "^1.2.1"
+  },
+  "scripts": {
+    "predeploy": "npx parcel build index.html",
+    "deploy": "gh-pages -d dist"
   }
 }
